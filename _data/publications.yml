@@ -15,6 +15,20 @@
   link: "https://medium.com/loka-engineering/running-six-open-source-cofolding-models-on-aws-lessons-learned-from-a-compute-perspective-d34715c60a5b"
 
 - when: "2025"
+  type: conference presentation
+  title: "DEL-AI: Proteome-wide in silico screening of multi-billion compound libraries using machine-learning foundation models"
+  venue: "Cancer Res. 2025, 85(8_Suppl_1), 3762 · AACR Annual Meeting"
+  desc: "Proteome-wide in silico screening of multi-billion–compound DNA-encoded libraries with machine-learning foundation models. Presented at the AACR Annual Meeting 2025."
+  link: "https://doi.org/10.1158/1538-7445.AM2025-3762"
+
+- when: "2025"
+  type: paper
+  title: "Chemical Modifications of 12-Methoxy-N-methylvoachalotine (12-MMV): Enhancing Efficacy against Phytopathogenic Fungi"
+  venue: "ACS Agric. Sci. Technol. 2025, 5(3), 355–363"
+  desc: "Isolation of the indole alkaloid 12-MMV from Tabernaemontana catharinensis and synthesis of derivatives with improved activity against phytopathogenic fungi."
+  link: "https://doi.org/10.1021/acsagscitech.4c00617"
+
+- when: "2025"
   type: paper
   title: "NaturAr: A Collaborative, Open-Source Database of Natural Products from Argentinian Biodiversity for Drug Discovery and Bioprospecting"
   venue: "J. Chem. Inf. Model. 2025, 65(4), 1889–1900"
@@ -34,3 +48,10 @@
   venue: "J. Biomol. Struct. Dyn."
   desc: "Docking, molecular dynamics, and MM-GBSA to identify compounds that stabilize non-native interfaces of the SARS-CoV-2 nucleocapsid protein."
   link: "https://doi.org/10.1080/07391102.2020.1860828"
+
+- when: "2018"
+  type: paper
+  title: "One-step preparation of novel 1-(N-indolyl)-1,3-butadienes by base-catalysed isomerization of alkynes as an access to 5-(N-indolyl)-naphthoquinones"
+  venue: "RSC Adv. 2018, 8(63), 35998–36006"
+  desc: "A base-catalysed alkyne-isomerization route to N-indolyl 1,3-butadienes, used in Diels–Alder reactions to build a library of 5-(N-indolyl)-naphthoquinones — early synthetic-chemistry work."
+  link: "https://doi.org/10.1039/C8RA05208E"
