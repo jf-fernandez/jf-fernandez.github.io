@@ -11,7 +11,7 @@
 - when: "Jun 2026"
   type: blogpost
   title: "Running six open-source cofolding models on AWS: lessons from a compute perspective"
-  desc: "Benchmarking six cofolding models on AWS using PROTAC ternary-complex prediction as a demanding test case — which model-and-instance combinations are actually efficient before you scale up. Loka Engineering, with Andrés Florian and Daniel Sabogal."
+  desc: "A deep-dive I co-wrote after wrestling six open-source cofolding models onto AWS — asking not which is most accurate, but which model-and-instance combinations are actually worth the compute before you scale. We used PROTAC ternary complexes as our stress test. Written with Andrés Florian and Daniel Sabogal for Loka Engineering."
   link: "https://medium.com/loka-engineering/running-six-open-source-cofolding-models-on-aws-lessons-learned-from-a-compute-perspective-d34715c60a5b"
 
 - when: "2025"
