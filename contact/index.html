@@ -1,0 +1,21 @@
+---
+layout: default
+title: Contact
+nav: contact
+description: Get in touch with Julián Fernández.
+---
+
+<header class="col-head">
+  <h2 class="col-title">Contact</h2>
+  <p class="col-intro">Working on biomolecular modeling, molecular AI, or drug-discovery engineering and want to compare notes? Reach out.</p>
+</header>
+
+<ul class="contact-list">
+  <li><a href="https://www.linkedin.com/in/{{ site.social.linkedin }}/">LinkedIn</a><span>the best way to reach me</span></li>
+  <li><a href="{{ site.social.scholar }}">Google Scholar</a><span>publications</span></li>
+  <li><a href="https://medium.com/@{{ site.social.medium }}">Medium</a><span>longer-form writing</span></li>
+  <li><a href="https://github.com/{{ site.social.github }}">GitHub</a><span>code &amp; projects</span></li>
+  {% if site.social.email and site.social.email != "" %}
+  <li><a href="mailto:{{ site.social.email }}">Email</a><span>{{ site.social.email }}</span></li>
+  {% endif %}
+</ul>

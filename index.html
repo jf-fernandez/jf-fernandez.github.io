@@ -1,0 +1,29 @@
+---
+layout: default
+title: Publications
+nav: publications
+description: >-
+  Publications, talks, and writing by Julián Fernández — biomolecular modeling,
+  AI-driven drug discovery, generative chemistry, and scientific software.
+---
+
+<header class="col-head">
+  <h2 class="col-title">Publications</h2>
+  <p class="col-intro">Papers, talks, and writing — most recent first.</p>
+</header>
+
+<ul class="pub-list">
+  {% for item in site.data.publications %}
+  <li class="pub-item">
+    <div class="pub-meta">
+      <span class="pub-when">{{ item.when }}</span>
+      <span class="post-cat">{{ item.type }}</span>
+    </div>
+    <h3 class="pub-title">
+      {% if item.link and item.link != "" %}<a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+    </h3>
+    {% if item.venue %}<p class="pub-venue">{{ item.venue }}</p>{% endif %}
+    <p class="pub-desc">{{ item.desc }}</p>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,26 @@
+# Jekyll configuration — served at https://jf-fernandez.github.io
+# GitHub Pages: Settings → Pages → Deploy from a branch → main → / (root)
+title: Julián F. Fernández
+tagline: Biomolecular modeling & AI for drug discovery
+description: >-
+  Julián F. Fernández builds AI-driven workflows for biomolecular modeling and
+  drug discovery — connecting molecular science, machine learning, and practical
+  engineering.
+author: Julián F. Fernández
+lang: en
+
+url: https://jf-fernandez.github.io
+baseurl: ""
+
+# Public profiles only. Leave email blank until you choose a public address;
+# it renders in Contact only when set (keeps personal email off the site).
+social:
+  linkedin: jf-fernandez
+  github: jf-fernandez
+  medium: jf-fernandez
+  scholar: https://scholar.google.com/citations?user=0dV1PyQAAAAJ&hl=es
+  email: julian.fr.fernandez@gmail.com
+
+# The CV sources live outside /docs and are never part of this build.
+exclude:
+  - README.md

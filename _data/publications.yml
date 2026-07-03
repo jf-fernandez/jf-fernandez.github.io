@@ -1,0 +1,36 @@
+# Chronological record (most recent first). Each entry renders on the
+# Publications page. Types: paper · conference talk · conference presentation · blogpost
+# Add a new item by copying a block. Leave `link:` empty ("") for no link.
+
+- when: "Nov 2026"
+  type: conference talk
+  title: "II Jornadas Rioplatenses de Química Medicinal (JRQM)"
+  desc: "Excited to share that I have been invited to give a talk at the II Jornadas Rioplatenses de Química Medicinal, in Buenos Aires (Nov 12–13, 2026)."
+  link: "https://2jrqm.exactas.uba.ar/"
+
+- when: "Jun 2026"
+  type: blogpost
+  title: "Running six open-source cofolding models on AWS: lessons from a compute perspective"
+  desc: "Benchmarking six cofolding models on AWS using PROTAC ternary-complex prediction as a demanding test case — which model-and-instance combinations are actually efficient before you scale up. Loka Engineering, with Andrés Florian and Daniel Sabogal."
+  link: "https://medium.com/loka-engineering/running-six-open-source-cofolding-models-on-aws-lessons-learned-from-a-compute-perspective-d34715c60a5b"
+
+- when: "2025"
+  type: paper
+  title: "NaturAr: A Collaborative, Open-Source Database of Natural Products from Argentinian Biodiversity for Drug Discovery and Bioprospecting"
+  venue: "J. Chem. Inf. Model. 2025, 65(4), 1889–1900"
+  desc: "An open, community-curated database of natural products from Argentina's biodiversity, built for drug discovery and bioprospecting."
+  link: "https://doi.org/10.1021/acs.jcim.4c01507"
+
+- when: "2024"
+  type: paper
+  title: "Target Fisher: A Consensus Structure-Based Target Prediction Tool, and its Application in the Discovery of Selective MAO-B Inhibitors"
+  venue: "Chem. Eur. J. 2025, 31(1)"
+  desc: "A structure-based target-prediction tool combining molecular docking and machine learning across 37 targets, applied to discover selective MAO-B inhibitors."
+  link: "https://doi.org/10.1002/chem.202401838"
+
+- when: "2020"
+  type: paper
+  title: "Small-molecule stabilization of non-native protein–protein interactions of SARS-CoV-2 N protein as a mechanism of action against COVID-19"
+  venue: "J. Biomol. Struct. Dyn."
+  desc: "Docking, molecular dynamics, and MM-GBSA to identify compounds that stabilize non-native interfaces of the SARS-CoV-2 nucleocapsid protein."
+  link: "https://doi.org/10.1080/07391102.2020.1860828"
